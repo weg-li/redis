@@ -2,7 +2,7 @@ services:
 - type: pserv
   name: redis
   env: docker
-  plan: standard
+  plan: starter
   region: frankfurt
   disk:
     name: data
